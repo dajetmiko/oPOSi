@@ -1,2 +1,2 @@
 react: npm run start-react
-electron: tsc src/electron/electron-wait-react.ts && tsc src/electron/main.ts && node src/electron/electron-wait-react
+electron: tsc src/electron/electron-wait-react.ts && tsc src/electron/main.ts && tsc src/electron/preload.ts && node src/electron/electron-wait-react
