@@ -18,11 +18,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "react-scripts build",
     "watch": "tsc -w",
     "lint": "eslint -c .eslintrc --ext .ts ./src",
     "start-react": "react-scripts start",
-    "start-electron": "npm run build && electron ./dist/main.js",
+    "start-electron": "electron ./src/electron/main",
     "start": "nf start"
   },
   "eslintConfig": {
